@@ -25,7 +25,7 @@ int HIsEmpty(Heap *ph){
 
 
 
-//ÀÎµ¦½º ¹İÈ¯ ¡é
+//ì¸ë±ìŠ¤ ë°˜í™˜ â†“
 int GetParentIDX(int idx) {
 	return idx / 2;
 }
@@ -80,7 +80,7 @@ int HDelete(Heap *ph){
 	ph->numOfData -= 1;
 	return retData;
 }
-// Èü ÀÚ·áÇü ±¸Çö ¹× ¼³Á¤ ÇÔ¼ö
+// í™ ìë£Œí˜• êµ¬í˜„ ë° ì„¤ì • í•¨ìˆ˜
 
 
 int main(){

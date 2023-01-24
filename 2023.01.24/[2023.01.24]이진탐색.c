@@ -38,26 +38,26 @@ void MakeRightSubTree(BTreeNode* main, BTreeNode* sub){
 		free(main->right);
 	main->right = sub;
 }
-//¡è±âº» ³ëµå Á¤ÀÇ ¹× Ãß°¡
+//â†‘ê¸°ë³¸ ë…¸ë“œ ì •ì˜ ë° ì¶”ê°€
 
 void InorderTravel(BTreeNode* bt) {
 	if (bt == NULL)
 		return;
 
-	////ÁßÀ§ ¼øÈ¸//
+	////ì¤‘ìœ„ ìˆœíšŒ//
 	//
 	//InorderTravel(bt->left);
 	//printf("%d ", bt->data);
 	//InorderTravel(bt->right);
 
 	
-	//ÈÄÀ§ ¼øÈ¸//
+	//í›„ìœ„ ìˆœíšŒ//
 	InorderTravel(bt->left);
 	InorderTravel(bt->right);
 	printf("%d ", bt->data);
 
 	
-	////ÀüÀ§ ¼øÈ¸//
+	////ì „ìœ„ ìˆœíšŒ//
 	//printf("%d ", bt->data);
 	//InorderTravel(bt->left);
 	//InorderTravel(bt->right);

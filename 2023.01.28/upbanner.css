@@ -1,0 +1,39 @@
+a{
+    text-decoration:none;
+    color:black;
+    /* color:inherit; 가능 */
+  }
+  
+  div{
+    text-align:center;
+  }
+  
+  div>a{
+    font-size:5rem;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:-10px;
+  }
+  
+  /* section을 목록(list)으로 생각 */
+  section{
+    display:block;
+    text-align:center;
+    font-weight:bold;
+  }
+  
+  /* section > nav를 항목(list-item)으로 생각. */
+  section>nav{
+    width:120px;
+    display:inline-block;
+  }
+  
+  /* section > nav > a를 항목 텍스트로 생각 */
+  section>nav>a{
+    /* 이렇게 해야 빈 공간도 버튼 클릭 가능*/
+    display:block;
+  }
+  
+  section > nav > a:hover{
+    color:red;
+  }

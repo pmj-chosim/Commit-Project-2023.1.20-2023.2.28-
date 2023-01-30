@@ -1,0 +1,1 @@
+https://koreacentral.api.azureml.ms/pipelines/v1.0/subscriptions/f5bc93f2-df0a-4b1a-ab9e-2b0203fc7d26/resourceGroups/RG3/providers/Microsoft.MachineLearningServices/workspaces/labu

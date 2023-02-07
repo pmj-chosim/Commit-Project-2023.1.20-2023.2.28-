@@ -21,4 +21,6 @@ void main() {
   // Remove 'sandwitch'
   menu.remove('sandwitch');
   print(menu);
+	
+  print({...menu});
 }

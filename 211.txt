@@ -1,0 +1,5 @@
+#include <stdio.h>
+
+Void main(){
+ printf("미안");
+}

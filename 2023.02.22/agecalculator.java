@@ -34,9 +34,14 @@ public class BirthYearCalculator {
 
         System.out.println("Hello, " + name + "! Your birth year is " + birthYear + ".");
         
+        
+        //default
         LocalDate birthDate = LocalDate.of(birthYear, 1, 1);
+        //지금 시각 정보
         LocalDate currentDate = LocalDate.now();
+        //두 값 사이 값
         Period agePeriod = Period.between(birthDate, currentDate);
+        //각자
         int ageYears = agePeriod.getYears();
         int ageMonths = agePeriod.getMonths();
         int ageDays = agePeriod.getDays();

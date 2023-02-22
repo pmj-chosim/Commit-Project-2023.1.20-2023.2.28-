@@ -1,6 +1,11 @@
+//자바 복습 겸. 3달있음 2번째 20살을 맞는 기념으로 agecalculator 만듦.
+//time 모듈을 책에서만 봤는데 오늘 처음 써봄.
+
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
+
 
 public class BirthYearCalculator {
     public static void main(String[] args) {

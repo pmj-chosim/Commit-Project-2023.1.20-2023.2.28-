@@ -1,3 +1,5 @@
+//가장 고전적인 게임 가위바위보를 만듦 dart언어 공부 안 한지 한 일주일 됐나..? 그래서 dart 복습겸
+
 import 'dart:io';
 import 'dart:math';
 

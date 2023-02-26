@@ -37,3 +37,12 @@ shift = int(input("밀어낼 거리를 입력하세요: "))
 ciphered_text = caesar_cipher(text, shift)
 
 print("암호화된 결과: " + ciphered_text)
+
+
+text ="idontwanttofinishvacation
+
+shift = 8 #555는 악마의 숫자라 일컷는데 5가 3개이고 5+3은 8이라서ㅎ
+
+ciphered_text = caesar_cipher(text, shift)
+
+print("암호화된 결과: " + ciphered_text)

@@ -1,3 +1,4 @@
+#why i commit this thing? BECAUSE TOday i study slam in ai jobcamp
 import cv2
 
 # initialize the video capture device
